@@ -1,0 +1,66 @@
+{%  extends 'layout.html' %}
+{% block body %}
+<link rel="stylesheet" href="/static/contact.css">
+<nav>
+    <div class="logo">
+        <p>silver manufacturing in salem</p>
+    </div>
+    <img src="/static/logo.png" alt="" class="hello">
+    <ul>
+        <li><a href="/details"> HOME</a></li>
+         <li><a href="/design">DESIGN</a></li>
+         <li><a href="/service">SERVICE</a></li>
+         <li><a href="/contact">place your order</a></li>
+         <li><a href="/back">back</a></li>
+    </ul>
+</nav>
+
+<div class="rajesh">
+    <h3>enter your details</h3>
+    <form action="" method="post" >
+        <div class="input">
+        <label class="bo">NAME</label>
+        <input type="text" name="name"/required>
+        </div>
+        <div class="input">
+            <label class="bo">PHONE NUMBER</label>
+            <input type="text" name="phone"/required>
+        </div>
+        <div  class="input">
+            <label class="bo">EMAIL</label>
+            <input type="email" name="email"/required>
+        </div>
+        <div >
+        
+            <input type="checkbox" name="checkbox" value="forshop" >
+            <label>FOR SHOP</label>
+        </div>
+        <div >
+            
+            <input type="checkbox" name="checkbox"  value="wholer" >
+            <label>WHOLER DEALER</label>
+        </div> 
+        <div class="input" class="bo">
+            STATE
+            <select name="state"  class="jo">
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="andra Pradesh">Andra Pradesh</P></option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Maharashtra">Maharashtra</option>
+            </select /required>
+        </div>
+        <div class="do">
+            <label class="bo">ABOUT US</label>
+            <textarea name="about"></textarea>
+        </div>
+        <div  class="pp">
+            <center>
+            <input type="image" src="/static/submit.jpg" width="100PX" >
+        </center>
+        </div>
+    </form>
+</div>
+ 
+{% endblock %}

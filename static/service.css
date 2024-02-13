@@ -1,0 +1,62 @@
+div>p{
+    margin: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow:  4px 2px 2px rgb(230, 243, 48);
+    border: 10px solid ;
+    forced-color-adjust: white;
+   
+}
+
+a:visited{
+    color: chocolate;
+    
+}
+a:link{
+    color: rgb(7, 3, 230)
+    
+}
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: fuchsia;
+}
+a{
+    border: 1px solid rgb(99, 248, 99);
+    text-indent: 5px;
+    padding: 3px;
+    font-size: small; 
+    text-transform: uppercase;
+    background-color: rgb(240, 222, 121);
+}
+div>p{
+    background:linear-gradient(to top right,silver 70%,rgb(224, 248, 4) 30%)
+}
+
+li{
+    display:inline;
+}
+
+.para1{
+    border: 40px solid black;
+    border-image: url(/static/bod.png) 300 round;
+    font-size: 1em;
+    background-color: white;
+
+}
+.hello{
+    width: 40px;
+    position: relative;
+    top: -45px;
+    left: 30px;
+    
+}
+body{
+    background-image: url(/static/p.jpg);
+}
+
